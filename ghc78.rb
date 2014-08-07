@@ -2,9 +2,9 @@ require 'formula'
 
   class Ghc78 < Formula
     homepage "http://haskell.org/ghc/"
-    url "http://www.haskell.org/ghc/dist/7.8.1/ghc-7.8.1-x86_64-apple-darwin-mavericks.tar.xz"
-    sha1 "6cbe354c52e5793a804b364995ff49f483a7d6c3"
-    version '7.8.1'
+    url "http://www.haskell.org/ghc/dist/7.8.2/ghc-7.8.2-x86_64-apple-darwin-mavericks.tar.xz"
+    sha1 "5219737fb38f882532712047f6af32fc73a91f0f"
+    version '7.8.2'
 
     # http://hackage.haskell.org/trac/ghc/ticket/6009
     depends_on :macos => :snow_leopard
