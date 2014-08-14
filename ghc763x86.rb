@@ -1,6 +1,6 @@
 require 'formula'
 
-  class Ghc763_x86 < Formula
+  class Ghc763x86 < Formula
     homepage "http://github.com/rodlogic/homebrew-ghc"
     url "http://www.haskell.org/ghc/dist/7.6.3/ghc-7.6.3-i386-apple-darwin.tar.bz2"
     sha1 "6a312263fef41e06003f0676b879f2d2d5a1f30c"

@@ -1,10 +1,10 @@
 require 'formula'
 
-  class Ghc761_x86 < Formula
+  class Ghc763x86_64 < Formula
     homepage "http://haskell.org/ghc/"
-    url "http://www.haskell.org/ghc/dist/7.6.1/ghc-7.6.1-i386-apple-darwin.tar.bz2"
-    sha1 "aaee29f905584b38f64a1e2cc9a5211ad73f63a8"
-    version '7.6.1-x86'
+    url "http://www.haskell.org/ghc/dist/7.6.3/ghc-7.6.3-x86_64-apple-darwin.tar.bz2"
+    sha1 "fb9f18197852181a9472221e1944081985b75992"
+    version '7.6.3-x86_64'
 
     # http://hackage.haskell.org/trac/ghc/ticket/6009
     depends_on :macos => :snow_leopard
