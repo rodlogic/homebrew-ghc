@@ -1,7 +1,7 @@
 require 'formula'
 
   class Ghc783 < Formula
-    homepage "http://haskell.org/ghc/"
+    homepage "http://github.com/rodlogic/homebrew-ghc"
     url "http://www.haskell.org/ghc/dist/7.8.2/ghc-7.8.2-x86_64-apple-darwin-mavericks.tar.xz"
     sha1 "d55a671482614cbd3c12e4594437aedfd78f47de"
     version '7.8.3'

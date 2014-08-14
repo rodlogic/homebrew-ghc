@@ -1,7 +1,7 @@
 require 'formula'
 
   class Ghc762 < Formula
-    homepage "http://haskell.org/ghc/"
+    homepage "http://github.com/rodlogic/homebrew-ghc"
     url "http://www.haskell.org/ghc/dist/7.6.2/ghc-7.6.2-x86_64-apple-darwin.tar.bz2"
     sha1 "c5f2c36badf2a1c79259ccb1b1f0dcb8ff801356"
     version '7.6.2'
