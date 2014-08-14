@@ -1,9 +1,9 @@
 homebrew-ghc
 ================
 
-You found this repository because here because the existing GHC formula is not updated as frequently as I would like. In addition, I need a GHC formula that allows me to install multiple versions of ghc side by side so I can easily switch between them.
+You found this repository because the existing GHC formula is not updated as frequently as I would like and because I also need a formula that allows me to install multiple versions of GHC side by side so I can easily switch between them.
 
-Tap into this 
+Tap into this
 ============
 First add the homebrew-ghc tap:
 
@@ -38,7 +38,7 @@ Installing a second version of GHC
 ==================================
 
 Let's install ghc-7.6.3:
- 
+
 ```bash
 > brew install ghc763
 ```
