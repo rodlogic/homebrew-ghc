@@ -47,7 +47,7 @@ And now, let's switch to it:
 
 ```bash
 > brew unlink ghc783
-Unlinking /usr/local/Cellar/ghc768/7.6.8... 17 symlinks removed
+Unlinking /usr/local/Cellar/ghc768/7.8.3... 17 symlinks removed
 > brew link ghc763
 Linking /usr/local/Cellar/ghc763/7.6.3... 17 symlinks created
 ```
