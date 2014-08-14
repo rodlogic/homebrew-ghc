@@ -1,4 +1,4 @@
-homebrew-haskell
+homebrew-ghc
 ================
 
 You found this repository because here because the existing GHC formula is not updated as frequently as I would like. In addition, I need a GHC formula that allows me to install multiple versions of ghc side by side so I can easily switch between them.
