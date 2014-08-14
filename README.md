@@ -17,7 +17,8 @@ Installing a specific GHC version
 Now, for instance, install ghc-7.8.3:
 
 ```bash
-brew install ghc783
+> brew install ghc783
+...
 ```
 
 And link the binaries to the /usr/loca/bin folder:
@@ -41,6 +42,7 @@ Let's install ghc-7.6.3:
 
 ```bash
 > brew install ghc763
+...
 ```
 
 And now, let's switch to it:
@@ -53,7 +55,7 @@ Linking /usr/local/Cellar/ghc763/7.6.3... 17 symlinks created
 ```
 
 ```bash
-ghc --version
+> ghc --version
 The Glorious Glasgow Haskell Compilation System, version 7.6.3
 ```
 
