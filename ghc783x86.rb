@@ -9,6 +9,7 @@ require 'formula'
     # http://hackage.haskell.org/trac/ghc/ticket/6009
     depends_on :macos => :snow_leopard
     depends_on "gmp"
+    keg_only "ghc763x86" => :build
 
     # These don't work inside of a `stable do` block
     if MacOS.version < :mavericks
@@ -24,8 +25,9 @@ require 'formula'
     end
 
     def install
-      # ensure configure does not use Xcode 5 "gcc" which is actually clang
-      system "./configure --prefix=#{prefix} --with-gcc=#{ENV.cc} --target=i386-apple-darwin"
+      ENV["LD"] = "ld"
+      ENV.prepend_path "PATH", "#{Formula.factory('ghc763x86').opt_prefix}/bin"
+      system "./configure --prefix=#{prefix} --with-gcc=#{ENV.cc} --target=i386-apple-darwin --with-ld=/usr/bin/ld --with-nm=/usr/bin/nm --with-ar=/usr/bin/ar --with-ranlib=/usr/bin/ranlib"
       if MacOS.version <= :lion
         # __thread is not supported on Lion but configure enables it anyway.
         File.open("mk/config.h", "a") do |file|
