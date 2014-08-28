@@ -3,6 +3,8 @@ homebrew-ghc
 
 You found this repository because the existing GHC formula is not updated as frequently as I would like and because I also need a formula that allows me to install multiple versions of GHC side by side so I can easily switch between them.
 
+It also installs from the provided binary distributions from GHC instead of installing from source. The exception is ghc783x86 (32 bits) since there is no binary distribution for this.
+
 Tap into this
 ============
 First add the homebrew-ghc tap:
